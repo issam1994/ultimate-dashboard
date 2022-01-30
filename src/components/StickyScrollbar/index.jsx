@@ -73,7 +73,7 @@ export default function StickyScrollbar({ overflowedTarget }) {
     return removeListeners;
   }, [overflowedTarget]);
   return (
-    <div className="opacity-95" ref={(ref) => (scrollbarRef.current = ref)} style={scrollbarStyles}>
+    <div ref={(ref) => (scrollbarRef.current = ref)} style={scrollbarStyles}>
       {/* content  */}
       <div style={contentStyles}></div>
     </div>
