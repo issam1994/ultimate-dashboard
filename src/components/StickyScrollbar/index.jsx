@@ -11,7 +11,6 @@ export default function StickyScrollbar({ overflowedTarget }) {
   const scrollbarStyles = {
     overflowX: "auto",
     position: "fixed",
-    position: "-webkit-sticky",
     visibility: showScrollbar ? "visible" : "hidden",
     width: scrollbarWidth,
     left: overflowedTarget?.offsetLeft,
